@@ -11,6 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 1%;
 }
 .fondo2{
     background: rgba(250, 244, 248, 0.888)
@@ -21,22 +22,20 @@
 .contacto{
     font-size: medium;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Alfa Slab One', cursiva;
 }
 
 /* Claase Card-text */
 .card-text{
-    font-size: 12px;
+    font-size: 15px;
 }
 .card-title{
     text-align: center;
 }
-
-
-@media (min-width: 800px){
-    .pasteleria{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-    }
+.carousel{
+    margin: 1%;
+    padding: 10%;
+}
+.card-body{
+    background-color: bisque;
 }
