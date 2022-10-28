@@ -20,7 +20,7 @@
     background: radial-gradient(circle, rgba(246,222,78,1) 0%, rgba(240,224,131,0.2665441176470589) 27%, rgba(240,150,212,1) 71%, rgba(227,214,134,0.8379726890756303) 95%);
 }
 .contacto{
-    font-size: medium;
+    font-size: small;
     text-align: center;
     font-family: 'Alfa Slab One', cursiva;
 }
