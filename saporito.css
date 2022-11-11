@@ -1,41 +1,52 @@
-.pasteleria{
+.pasteleria {
     text-align: center;
     font-family: 'Alfa Slab One', cursiva;
     font-size: 25px;
     padding: 20px;
 }
-.color1{ 
-    background-color: linear-gradient(326deg, rgba(36,3,0,1) 19%, rgba(227,16,151,0.8883928571428571) 39%, rgba(230,237,147,0.9248074229691877) 69%);;
+
+.color1 {
+    background-color: linear-gradient(326deg, rgba(36, 3, 0, 1) 19%, rgba(227, 16, 151, 0.8883928571428571) 39%, rgba(230, 237, 147, 0.9248074229691877) 69%);
+    ;
 }
-.caja1{ 
+
+.caja1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 1%;
 }
-.fondo2{
+
+.fondo2 {
     background: rgba(250, 244, 248, 0.888)
 }
-.fondo1{
-    background: radial-gradient(circle, rgba(246,222,78,1) 0%, rgba(240,224,131,0.2665441176470589) 27%, rgba(240,150,212,1) 71%, rgba(227,214,134,0.8379726890756303) 95%);
+
+.fondo1 {
+    background: radial-gradient(circle, rgba(246, 222, 78, 1) 0%, rgba(240, 224, 131, 0.2665441176470589) 27%, rgba(240, 150, 212, 1) 71%, rgba(227, 214, 134, 0.8379726890756303) 95%);
 }
-.contacto{
+
+.contacto {
     font-size: small;
     text-align: center;
     font-family: 'Alfa Slab One', cursiva;
 }
 
-/* Claase Card-text */
-.card-text{
+.card-text {
     font-size: 15px;
 }
-.card-title{
+
+.card-title {
     text-align: center;
 }
-.carousel{
+
+.carousel {
     margin: 1%;
     padding: 10%;
+    width: 100%;
 }
-.card-body{
+
+.card-body {
     background-color: bisque;
 }
+
+@media (max-width: 375px) {}
